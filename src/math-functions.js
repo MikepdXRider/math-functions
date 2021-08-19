@@ -80,7 +80,11 @@ export function sumAndMultiplyThreeNumbers(a, b, c) { //eslint-disable-line
 // */
 
 export function sumArrayWithThreeNumbers(sumArr) {
+    const sumStep1 = sum(sumArr[0], sumArr[1]);
+    const totalSum = sum(sumStep1[0], sumArr[2]);
+    const unpackedSumArray = totalSum[0];
 
+    return [unpackedSumArray, `${sumArr[0]},${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and ${unpackedSumArray} is their sum.`];
 }
 
 // // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
