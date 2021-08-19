@@ -131,8 +131,14 @@ export function multiplyArrayWithThreeNumbers(multArr) { //eslint-disable-line
 // This function should be dynamic, accepting an array of any length.
 // */
 
+// Solve: https://stackoverflow.com/questions/19175063/multiply-all-elements-in-array
 export function multiplyAnyArray(dynamicArray) { //eslint-disable-line
-
+    let string = dynamicArray.join();
+    let sum = 1;
+    for(let i = 0; i < dynamicArray.length; i++) {
+        sum = multiply(sum, dynamicArray[i])[0];
+    }
+    return [sum, `The numbers ${string} have a product of ${sum}.`];
 }
 
 // // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
