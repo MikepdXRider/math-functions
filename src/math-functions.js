@@ -50,9 +50,9 @@ function that you've already created. You're going to have to be resourceful to 
 how to do this. However, you may continue to use the + operator for string concatenation.
 */
 
-// export function sumAndMultiplyThreeNumbers(a, b, c) { //eslint-disable-line
-
-// }
+export function sumAndMultiplyThreeNumbers(a, b, c) { //eslint-disable-line
+    return [(a + b + c), (a * b * c), `${a} and ${b} and ${c} sum to ${a + b + c}.`, `The product of ${a} and ${b} and ${c} is ${a * b * c}.`];
+}
 
 // // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 // // Don't forget to create a new branch for your work on the next question!
@@ -72,9 +72,9 @@ how to do this. However, you may continue to use the + operator for string conca
 // to use the + operator for string concatenation.
 // */
 
-// export function sumArrayWithThreeNumbers(sumArr) {
+export function sumArrayWithThreeNumbers(sumArr) {
 
-// }
+}
 
 // // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 // // Don't forget to create a new branch for your work on the next question!
@@ -95,9 +95,9 @@ how to do this. However, you may continue to use the + operator for string conca
 // you may continue to use the + operator for string concatenation.
 // */
 
-// export function multiplyArrayWithThreeNumbers(multArr) { //eslint-disable-line
+export function multiplyArrayWithThreeNumbers(multArr) { //eslint-disable-line
 
-// }
+}
 
 // // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 
@@ -116,9 +116,9 @@ how to do this. However, you may continue to use the + operator for string conca
 // This function should be dynamic, accepting an array of any length.
 // */
 
-// export function multiplyAnyArray(dynamicArray) { //eslint-disable-line
+export function multiplyAnyArray(dynamicArray) { //eslint-disable-line
 
-// }
+}
 
 // // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 // // You're done! Submit the link to the repo following the instructions in Canvas.
