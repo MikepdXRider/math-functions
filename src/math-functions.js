@@ -107,7 +107,11 @@ export function sumArrayWithThreeNumbers(sumArr) {
 // */
 
 export function multiplyArrayWithThreeNumbers(multArr) { //eslint-disable-line
+    const multiplyStep1 = multiply(multArr[0], multArr[1]);
+    const totalmultiply = multiply(multiplyStep1[0], multArr[2]);
+    const unpackedMultiplyArray = totalmultiply[0];
 
+    return [unpackedMultiplyArray, `The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${unpackedMultiplyArray}.`];
 }
 
 // // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
